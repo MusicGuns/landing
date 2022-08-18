@@ -1,0 +1,51 @@
+.image {
+  width: 200px;
+  height: 200px;
+}
+.image-small {
+  width: 50px;;
+  height: 50px;
+}
+.container-image {
+  padding-top: 20px;
+  overflow: hidden;
+  margin-right: 10px;
+  height: 200px;
+  text-align: center;
+}
+.circle-image {
+  border-radius: 100%;
+  width: 200px;
+  height: 200px;
+}
+.left {
+  float:left;
+  width: 45%;
+}
+.container-image {
+  padding-top: 20px;
+  overflow: hidden;
+  margin-right: 10px;
+  height: 300px;
+  text-align: center;
+  overflow: hidden;
+}
+.image-big {
+  width: 240px;
+  height: 240px;
+}
+@media (max-width: 960px) {
+  .left {
+    float: none;
+    width: 100%;
+  }
+  .container-image {
+    margin-top:30px;
+    height: auto;
+  }
+}
+@media (max-width: 450px) {
+  .container-image{
+    width: 100%;
+  }
+}

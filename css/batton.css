@@ -1,0 +1,28 @@
+.batton {
+  margin-left: 40%;
+  margin-right: 40%;
+  margin-top: 40px;
+  padding:15px;
+  background-color: aliceblue;
+  border-radius: 10%;
+  font-size: large;
+  color: black;
+  font-weight: bold;
+  border: 3px solid black;
+}
+.batton-1 {
+  margin-top: 40px;
+  padding:15px;
+  background-color: aliceblue;
+  border-radius: 10%;
+  font-size: large;
+  color: black;
+  font-weight: bold;
+  border: 3px solid black;
+}
+@media (max-width: 430px) {
+  .batton {
+    margin-left: 35%;
+    margin-right: 35%;
+  }
+}
